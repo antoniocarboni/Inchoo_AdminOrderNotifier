@@ -1,0 +1,19 @@
+{
+  "name": "inchoo/admin-order-notifier",
+  "type": "magento-module",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  }, 
+  "authors":[
+    {
+      "name": "inchoo"
+    }
+  ],
+  "extra": {
+    "map" : [
+      ["app/etc/modules/Inchoo_AdminOrderNotifier.xml", "app/etc/modules/Inchoo_AdminOrderNotifier.xml"],
+      ["app/code/community/Inchoo/AdminOrderNotifier", "app/code/community/Inchoo/AdminOrderNotifier"],
+      ["app/locale/en_US/template/email/inchoo_adminOrderNotifier.html", "app/locale/en_US/template/email/inchoo_adminOrderNotifier.html"]
+    ]
+  }
+}
